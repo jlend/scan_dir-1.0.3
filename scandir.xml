@@ -16,10 +16,11 @@
 	<languages>
 		<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_scandir.ini</language>
 		<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_scandir.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_scandir.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_scandir.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
-
 			<fieldset name="basic">
 				<field type="text" name="file" label="PLG_SCANDIR_FIELD_FILE_LABEL" description="PLG_SCANDIR_FIELD_FILE_DESC" default="scan_dir" />
 				<field name="scandir_save_dir" type="radio"
@@ -50,7 +51,6 @@
 					label="PLG_SCANDIR_FIELD_EXCLUDE_DIR_LABEL"
 					description="PLG_SCANDIR_FIELD_EXCLUDE_DIR_DESC"
 					default="cache\" />
-
 				<field
 					name="exclude_ext"
 					type="textarea"
